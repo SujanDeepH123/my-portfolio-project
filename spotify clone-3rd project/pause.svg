@@ -1,0 +1,5 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- Pause Button (Two Vertical Bars) -->
+    <rect x="18" y="15" width="8" height="30" fill="white"/>
+    <rect x="34" y="15" width="8" height="30" fill="white"/>
+</svg>

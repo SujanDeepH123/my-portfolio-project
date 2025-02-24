@@ -1,0 +1,18 @@
+.border{
+    border: 2px solid red;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.alignitems{
+    align-items: center;
+}
+.back{
+    background-color:pink;
+}
+.c{
+    color: white;
+}

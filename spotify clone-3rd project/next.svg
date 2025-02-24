@@ -1,0 +1,7 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- Right Triangle for Next Track -->
+    <polygon points="20,15 40,30 20,45" fill="black"/>
+    
+    <!-- Vertical Line (Next Song) with gap between triangle -->
+    <rect x="42" y="15" width="5" height="30" fill="black"/>
+</svg>
