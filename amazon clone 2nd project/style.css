@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* note this important note===to make the navigation bar responsive use flex grow or flex 1 1 0px etc  */
+
+body{
+    background-color:#E3E6E6;
+}
+nav{
+    background-color: #131921;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    color: white;
+    align-items: center;
+     /* theabove line is very imp this made whole items in navbar centre  */
+    justify-content: space-evenly;
+    /* the above line is used for responsiveness of the navbar   */
+}
+.btn-logo{
+    display: flex;
+    width: 129px;
+    /* remember to look after this width for responsive later  */
+    height: 50px;
+    min-width: 100px;
+    flex-grow: 0;
+}
+
+.logo{
+
+background-image: url("amazon_logo.png");
+background-size: cover;
+height: 50px;
+width: 100%;
+}
+.btn-location{
+align-items: center;
+width: 210px;
+height: 50px;
+display: flex;
+flex-direction: column;
+flex-grow: 0;
+}
+.btn-location div p{
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+.locationicon{
+    display: flex;
+    
+}
+.locationicon img{
+    background-color: white;
+}
+.para2{
+    font-size: 1rem;
+    padding-top: 3px;
+}
+.btn{
+    cursor: pointer;
+    border: 2px  solid transparent;
+}
+.btns{
+    cursor: pointer;
+}
+.btn:hover{
+    border:2px solid white
+}
+.btn-search{
+    display: flex;
+    box-sizing: border-box;
+    padding:8px 8px 8px 8px;
+    flex: 1 1 0px;
+    height: 60px;
+}
+.btn-search input{
+    width: 100%;
+}
+.searchlogo{
+    background-color:#ed9106;
+    border: solid 1px darkgoldenrod;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 4px 4px 0px;;
+}
+.searchlogo img{
+    width: 80%;
+    height: 80%;
+}
+.searchlogo:hover{
+    background-color: darkorange;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(153, 149, 149);
+    text-align: center;
+    width: 52px;
+    font-size: 0.8rem;
+    color: rgb(55, 54, 54);
+    border-radius: 4px 0px 0px 4px;
+}
+.all:hover{
+    background-color: grey;
+}
+.btn-india{
+    width: 73.38px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+}
+.btn-hello{
+    display: flex;
+    flex-direction: column;
+    width: 131.53px;
+    height: 50px;
+    flex-grow: 0;
+
+}
+.btn-hello p1{
+    font-size: 0.5rem;
+    margin-top: 6cqb;
+}
+.btn-hello p2{
+    font-size: 0.6rem;
+    font-weight: bolder;
+}
+.btn-return{
+    width: 76.95px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+}
+.btn-cart{
+    width: 85px;
+    height: 50px;
+    display: flex;
+    flex-grow: 0;
+
+}
+.btn-cart p{
+    margin-top: 30px;
+}
+.secnav{
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    color: #ffff;
+    align-items: center;
+
+}
+.divi{
+    display: flex;
+    height: 40px;
+    padding-left:7px ;
+    padding-right:7px ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid trasparent;
+}
+.divi:hover{
+    border:1px solid white;
+}
+.main{
+    position: relative;
+    background-color:#E3E6E6;
+}
+.temporary{
+    width: 100%;
+    height: 1080px;
+}
+.image{
+    width: 100%;
+    height: 500px;
+/* background-size: cover; */
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.gridcontainer1{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-template-rows: auto 1fr 1fr;
+   box-sizing: border-box;
+   width: 315px;
+   height: 385px;
+   background-color: black;
+   
+}
+.heading {
+    grid-column: 1 / -1; /* Span the heading across both columns */
+    background-color: white;
+    padding: 10px;
+    height: 40px;
+
+    text-align: center;
+  }
+  .heading h2{
+    font-size: 21px !important;
+    line-height: 27.3px !important;
+  }
+  
+  .box1, .box2, .box3, .box4 {
+    background-color: white;
+padding: 15px;
+    text-align: center;
+  }
+.box{
+    display: flex;
+    flex-direction: column;
+}
+  .box img{
+height:102px;
+width: 110px;
+  }
+  .box p{
+    font-size: 0.75rem;
+  }
+  .grids{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    position: absolute;
+    z-index: 0;
+   /* to use the above property the parnt continer doesnt need to be relative  */
+   top: 259px;
+   left: 17px;
+   gap: 15px;
+   
+   
+  }
+  .belowfooter{
+    box-sizing: border-box;
+    height: 190px;
+    width: 100%;
+    background-color: white;
+    padding-top: 35px;
+    
+
+  }
+  .insidebelowfooter{
+    height: 130px;
+    padding-top: 0 20px;
+   border:1px solid  #DDD;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+.insidebelowfooter p:first-child{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+
+}
+.customerpara{
+    font-size: 0.7rem;
+    line-height: 15px;
+    font-weight: 400;
+}
+.signin{
+    background-color: #FFC739;
+    width: 230px;
+    height: 28px;
+    border: 1px solid #E6A400;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 28px;
+font-weight: 700;
+    
+}
+.backtotop{
+    height: 50px;
+    background-color: #37475A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.backtotop:hover{
+    background-color: #485769;
+}
